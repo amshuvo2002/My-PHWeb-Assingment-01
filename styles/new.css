@@ -81,3 +81,79 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
+.banner-btn:hover {
+  background-color: #4537c6;
+}
+
+.banner {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+   
+}
+
+.banner h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.focus-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.focus-btn:hover {
+  background-color: blue;
+  color: white;
+} 
+/* Action Section */
+.action {
+  padding: 80px 0;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.action-left {
+  flex: 1;
+}
+
+.action-left h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.action-left p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.launch-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
