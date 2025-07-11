@@ -1,3 +1,83 @@
-h1{
-    color: brown;
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero {
+  background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  position: relative;
+}
+
+
+.overlay {
+  min-height: 100vh;
+  /* padding: 30px 40px; */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color:blue;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  background-color: #5c4efc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #4537c6;
+}
+
+
+.banner {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.banner-btn {
+  padding: 12px 30px;
+  background-color: #5c4efc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
 }
