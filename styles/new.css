@@ -191,6 +191,10 @@
   margin-bottom: 40px;
   color: #1e1e1e;
 }
+.highlight{
+    font-size: 80px;
+    font-weight: bold;
+}
 
 .user-stats {
   display: flex;
@@ -200,10 +204,8 @@
 }
 
 .stat-box {
-  background-color: white;
   padding: 30px 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   flex: 1 1 250px;
   max-width: 300px;
   min-width: 200px;
