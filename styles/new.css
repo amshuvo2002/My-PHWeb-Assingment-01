@@ -16,7 +16,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  height: 708px ;
+  width: 1440px ;
   color: white;
   position: relative;
 }
@@ -41,12 +42,12 @@
 .logo {
   font-size: 28px;
   font-weight: 800;
-  color:blue;
+  color: #4E47FF;
 }
 
 .signup-btn {
   padding: 10px 20px;
-  background-color: #5c4efc;
+  background-color:  #4E47FF;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -56,13 +57,13 @@
 }
 
 .signup-btn:hover {
-  background-color: #4537c6;
+  background-color: gold;
 }
 
 
 .banner {
   text-align: center;
-  margin-top: 150px;
+  margin: 0px 267.5px 162px 267.5px;
 }
 
 .banner h1 {
@@ -73,7 +74,7 @@
 
 .banner-btn {
   padding: 12px 30px;
-  background-color: #5c4efc;
+  background-color:  #4E47FF;
   color: white;
   border: none;
   border-radius: 6px;
@@ -83,7 +84,7 @@
 }
 
 .banner-btn:hover {
-  background-color: #4537c6;
+  background-color:  gold;
 }
 
 .banner {
@@ -115,7 +116,7 @@
 }
 
 .focus-btn:hover {
-  background-color: blue;
+  background-color:  gold;
   color: white;
 } 
 /* Action Section */
@@ -127,12 +128,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
   flex-wrap: wrap;
+  padding: 140px;
 }
 
 .action-left {
   flex: 1;
+
 }
 
 .action-left h2 {
@@ -150,7 +152,7 @@
   padding: 12px 25px;
   font-size: 16px;
   font-weight: bold;
-  background-color: blue;
+  background-color: #4E47FF;
   color: white;
   border: none;
   border-radius: 5px;
@@ -158,7 +160,7 @@
   transition: 0.3s;
 }
 .launch-btn:hover {
-  background-color: blue;
+  background-color: gold;
 }
 
 .action-right {
@@ -206,7 +208,7 @@
 
 .stat-box h3.highlight {
   font-size: 36px;
-  color: #5c4efc; 
+  color:  #4E47FF; 
   margin-bottom: 10px;
 }
 
@@ -320,7 +322,7 @@ form textarea {
 .submit-btn {
   width: fit-content;
   padding: 10px 25px;
-  background-color: #5c4efc;
+  background-color:  #4E47FF;
   color: white;
   border: none;
   border-radius: 6px;
@@ -387,7 +389,7 @@ button:hover,
 .launch-btn:hover,
 .submit-btn:hover {
   transform: scale(1.05);
-  background-color: #4537c6; 
+  background-color: goldenrod; 
   color: white;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
