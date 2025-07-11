@@ -64,6 +64,9 @@
 .banner {
   text-align: center;
   margin: 0px 267.5px 162px 267.5px;
+  font-weight: bold;
+  font-size: 65px;
+  padding: 50px;
 }
 
 .banner h1 {
@@ -282,12 +285,16 @@
 .contact-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
   align-items: flex-start;
+  padding: 0px 150px 0px 150px;
 }
 
 .contact-left {
-  flex: 1;
+    flex: 1;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  padding: 50px;
 }
 
 .contact-left h2 {
