@@ -157,3 +157,93 @@
   cursor: pointer;
   transition: 0.3s;
 }
+.launch-btn:hover {
+  background-color: blue;
+}
+
+.action-right {
+  flex: 1;
+  text-align: right;
+}
+
+.action-right img {
+  max-width: 100%;
+  height: auto;
+}
+.section-card {
+  background-color: #eae6fd;
+  border-radius: 20px;            /* 🎯 This is your marked corner */
+  padding: 50px 30px;
+  max-width: 950px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.productive-users h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #1e1e1e;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  flex: 1 1 250px;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.stat-box h3.highlight {
+  font-size: 36px;
+  color: #5c4efc; 
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #777;
+}
+
+.feedback {
+  background-color: #f9f9ff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.feedback h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.feedback-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 300px;
+  text-align: left;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
